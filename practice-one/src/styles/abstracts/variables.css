@@ -11,7 +11,8 @@
     --cl-light-gray: #ccd8e3;
     --cl-dark-blue: #3a36db;
     --cl-dark-gray: #515b6b;
-    --text-sort: #4d5869;
+    --cl-sort: #4d5869;
+    --cl-tag-link: #4d4fd7;
 
     /* Font sizes */
     --fs-xxx-sm: 0.7025rem;
