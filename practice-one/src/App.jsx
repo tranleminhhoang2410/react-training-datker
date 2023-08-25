@@ -1,8 +1,10 @@
+import LeftSidebar from "./layouts/LeftSidebar/LeftSidebar"
+
 function App() {
 
   return (
     <>
-      <h1>Hello</h1>
+      <LeftSidebar />
     </>
   )
 }

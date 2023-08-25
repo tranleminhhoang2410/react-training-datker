@@ -1,0 +1,27 @@
+.link__wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.link__icon {
+  margin-right: 0.88rem;
+  filter: invert(93%) sepia(4%) saturate(814%) hue-rotate(175deg)
+    brightness(95%) contrast(86%);
+}
+
+.link__wrapper.active .link__icon {
+  filter: invert(29%) sepia(55%) saturate(2618%) hue-rotate(228deg)
+    brightness(87%) contrast(93%);
+}
+
+.link__name {
+  color: var(--cl-light-gray);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-md);
+}
+
+.link__wrapper.active .link__name {
+  color: var(--cl-tag-link);
+}
