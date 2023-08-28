@@ -4,7 +4,7 @@ import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);
 
-const TagLink = ({ icon, name }) => {
+const TagLink = ({ icon, name, iconStyle, nameStyle }) => {
   const [changeColor, setChangeColor] = useState(false);
   const handleChangeColor = () => {
     setChangeColor(!changeColor);
@@ -15,8 +15,8 @@ const TagLink = ({ icon, name }) => {
       className={`${cx("link__wrapper")} ${changeColor ? styles.active : ""}`}
       onClick={handleChangeColor}
     >
-      <img className={cx("link__icon")} src={icon} alt="name" />
-      <span className={cx("link__name")}>{name}</span>
+      <img className={cx("link__icon")} src={icon} alt={name} style={iconStyle}/>
+      <span className={cx("link__name")} style={nameStyle}>{name}</span>
     </a>
   );
 };
