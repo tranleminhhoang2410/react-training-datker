@@ -1,25 +1,16 @@
-import React, { useState } from "react";
-import styles from "./TagLink.module.css";
-import classNames from "classnames/bind";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./TagLink.css";
 
-const cx = classNames.bind(styles);
-
-const TagLink = ({ icon, name, path, iconStyle, nameStyle }) => {
-  const [changeColor, setChangeColor] = useState(false);
-  const handleChangeColor = () => {
-    setChangeColor(!changeColor);
-  };
-
+const TagLink = ({ icon, name, path }) => {
   return (
-    <a
-      href={path}
-      className={`${cx("link__wrapper")} ${changeColor ? styles.active : ""}`}
-      onClick={handleChangeColor}
-      role="button"
+    <NavLink
+      to={path}
+      className={({isActive}) => isActive ? 'link__wrapper active' : 'link__wrapper'}
     >
-      <img className={cx("link__icon")} src={icon} alt={name} style={iconStyle}/>
-      <span className={cx("link__name")} style={nameStyle}>{name}</span>
-    </a>
+      <img className="link__icon" src={icon} alt={name}/>
+      <span className="link__name">{name}</span>
+    </NavLink>
   );
 };
 
