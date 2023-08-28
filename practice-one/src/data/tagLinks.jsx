@@ -11,33 +11,41 @@ export const tag_links = [
   {
     name: "Dashboard",
     icon: Dashboard,
+    path: "javascript:void(0)"
   },
   {
     name: "Analytics",
     icon: Analytics,
+    path: "javascript:void(0)"
   },
   {
     name: "Invoice",
     icon: Invoice,
+    path: "javascript:void(0)"
   },
   {
     name: "Schedule",
     icon: Schedule,
+    path: "javascript:void(0)"
   },
   {
     name: "Calendar",
     icon: Calendar,
+    path: "javascript:void(0)"
   },
   {
     name: "Messages",
     icon: Messages,
+    path: "javascript:void(0)"
   },
   {
     name: "Notification",
     icon: Notification,
+    path: "javascript:void(0)"
   },
   {
     name: "Settings",
     icon: Setting,
+    path: "javascript:void(0)"
   },
 ];
