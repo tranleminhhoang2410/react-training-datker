@@ -1,5 +1,7 @@
 import Dashboard from "../assets/images/dashboard.svg";
+import DashboardActive from "../assets/images/dashboard-active.svg";
 import Analytics from "../assets/images/analytics.svg";
+import AnalyticsActive from "../assets/images/analytics-active.svg";
 import Invoice from "../assets/images/invoice.svg";
 import Schedule from "../assets/images/schedule.svg";
 import Calendar from "../assets/images/calendar.svg";
@@ -11,11 +13,13 @@ export const tag_links = [
   {
     name: "Dashboard",
     icon: Dashboard,
+    activeIcon: DashboardActive,
     path: "/"
   },
   {
     name: "Analytics",
     icon: Analytics,
+    activeIcon: AnalyticsActive,
     path: "/analytics"
   },
   {

@@ -1,0 +1,7 @@
+.wrapper {
+    display: flex;
+}
+
+.content {
+    padding: 36px 30px;
+}

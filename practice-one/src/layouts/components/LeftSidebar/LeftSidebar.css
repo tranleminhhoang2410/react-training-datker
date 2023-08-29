@@ -1,0 +1,89 @@
+.left-sidebar {
+    padding: 24px;
+    min-height: 100vh;
+    min-width: 218px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.logo-name {
+    color: #3a36db;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lantern-wrapper {
+    position: relative;
+    padding: 15px;
+    width: 168px;
+    height: 168px;
+    background-color: rgba(255, 105, 180, 0.1);
+    border-radius: 20px;
+}
+
+.upgrade-btn {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding: 8px 32px;
+    color: #fff;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.upgrade-btn:hover {
+    opacity: 0.8;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-avatar {
+    width: 45px;
+    height: 43px;
+    border-radius: 12px;
+}
+
+.user-name,
+.user-status {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.user-name {
+    color: #06152b;
+}
+
+.user-status {
+    color: #99b2c6;
+}
+.logout-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

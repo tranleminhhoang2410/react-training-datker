@@ -1,0 +1,8 @@
+.tag-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.tag-link-item {
+    margin-left: -24px;
+}
